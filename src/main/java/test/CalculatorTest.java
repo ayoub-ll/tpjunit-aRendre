@@ -17,10 +17,10 @@ public class CalculatorTest {
 	public void CalculateSquareRootsTest() throws Exception {
 		ArrayList<Double> expected = new ArrayList<Double>();
 		
-		expected.add((double) 1);
-		expected.add((double) 2.41);
+		expected.add((double) 1.0);
+		expected.add((double) 1.41);
 		expected.add((double) 1.73);
-		expected.add((double) 2);
+		expected.add((double) 2.0);
 		expected.add((double) 2.24);
 		
 		
