@@ -14,7 +14,7 @@ public class CalculatorTest {
 	private Calculator calculator = new Calculator();
 	
 	@Test
-	public void CalculateSquareRootsTest() {
+	public void CalculateSquareRootsTest() throws Exception {
 		ArrayList<Double> expected = new ArrayList<Double>();
 		
 		expected.add((double) 1);
