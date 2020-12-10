@@ -79,16 +79,16 @@ public class Main extends JFrame {
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				try {
-					ArrayList<Double> result = calculator.CalculateSquareRoots(Integer.parseInt(textField.getText()), Integer.parseInt(textField_1.getText()));
-					
+					ArrayList<Double> result = 
+							calculator.CalculateSquareRoots(Integer.parseInt(textField.getText()),
+									Integer.parseInt(textField_1.getText()));
 					ShowResult(result);
-					
 				} catch (NumberFormatException e1) {
-					// TODO Auto-generated catch block
-					e1.printStackTrace();
+					JOptionPane.showMessageDialog(null,
+			                "Error: You must enter an integers");
 				} catch (Exception e1) {
-					// TODO Auto-generated catch block
-					e1.printStackTrace();
+					JOptionPane.showMessageDialog(null,
+							"First parameter must be lower than second parameter !");
 				}
 			}
 		});
