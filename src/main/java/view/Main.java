@@ -53,7 +53,7 @@ public class Main extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
-		JButton btnNewButton = new JButton("Calculer");
+		JButton btnNewButton = new JButton("Calculate");
 		
 		btnNewButton.setBounds(163, 195, 117, 29);
 		contentPane.add(btnNewButton);
@@ -68,11 +68,11 @@ public class Main extends JFrame {
 		contentPane.add(textField_1);
 		textField_1.setColumns(10);
 		
-		JLabel lblNewLabel = new JLabel("Chiffre A");
-		lblNewLabel.setBounds(113, 68, 61, 16);
+		JLabel lblNewLabel = new JLabel("Number A");
+		lblNewLabel.setBounds(113, 68, 73, 16);
 		contentPane.add(lblNewLabel);
 		
-		JLabel lblChiffreB = new JLabel("Chiffre B");
+		JLabel lblChiffreB = new JLabel("Number B");
 		lblChiffreB.setBounds(256, 68, 61, 16);
 		contentPane.add(lblChiffreB);
 		
